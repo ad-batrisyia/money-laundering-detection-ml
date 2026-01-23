@@ -71,7 +71,7 @@ An interactive dashboard was developed to translate model outputs into insights 
 * Descriptive, diagnostic, predictive, and prescriptive analytics
 
 📄 **Dashboard (PDF)**
-➡️ `dashboard/AML_Dashboard.pdf`
+➡️ [dashboard/AML_Dashboard.pdf](https://github.com/ad-batrisyia/money-laundering-detection-ml/blob/main/dashboard/AML%20Dashboard.pdf)
 
 ---
 
@@ -83,9 +83,12 @@ money-laundering-detection-ml/
 ├── README.md
 ├── notebooks/
 │   ├── 01_data_preparation_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training_evaluation.ipynb
-│   └── 04_threshold_optimization.ipynb
+│   ├── 02_Feature_Transformation_Engineering_Selection.ipynb
+│   ├── 03_Random_Sampling.ipynb
+│   ├── 04_Stratified_Sampling.ipynb
+│   ├── 05_Stratified_Sampling_With_RUS_Hyperparameter_Tuning_Adjust_Threshold_Retrain_Model.ipynb
+│   ├── 06_Stratified_Sampling_With_Class_Weight_Hyperparameter_Tuning_Adjust_Threshold_Retrain_Model.ipynb
+│   └── 07_Final_Evaluation_Best_Model.ipynb
 │
 ├── dashboard/
 │   ├── AML_Dashboard.pdf
